@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Arsenal SC', sans-serif;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px hsl(192, 46%, 17%);
+}
+
+.profile-user {
+    background-image: url(user-profile.png);
+    width: 100px;
+    height: 100px;
+    background-size: 100%;
+}
+
+.navbar {
+    display: flex;
+    background-color: #63C5DA;
+    grid-auto-columns: auto;
+    justify-content: center;
+    text-align: center;
+    width: 9rem;
+    height: 67.5rem;
+    list-style-type: none;
+}
+
+li, a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.header-main-connect {
+    display: flex;
+}
+
+.secondary-horizontal-navbar {
+    background-color: #8ed7e7;
+    width: 1920px;
+    height: 4rem; 
+    display: flex;
+    font-size: 1rem;
+    padding-bottom: 8px;
+}
+
+ul {
+    margin: auto
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.background-main{
+    background-image: url('school.jpg');
+    width: 100%;
+    height: 63rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.footer-main {
+    background-color:#477d8a;
+    width: 1920px;
+    padding: 5px;
+    height: 4rem;
+    display: flex;
+}
+
+.instagram {
+    background-image: url('instagram.png');
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+}
+
+.facebook {
+    background-image: url('facebook.png');
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+}
+
+.x-socialmedia {
+    background-image: url('twitter.png');
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+}
+
+p {
+    text-align: center;
+}
+
+
+
+
