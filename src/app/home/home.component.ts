@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-
+  public final_grade() {
+    alert('VAI TOMA NO CU')
+  }
 }
 
